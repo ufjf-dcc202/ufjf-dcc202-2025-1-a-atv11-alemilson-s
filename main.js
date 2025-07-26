@@ -29,5 +29,6 @@ btnAdicionar.addEventListener('click', adicionarItemNaLista);
 
 function adicionarItemNaLista(){
     adicionaNaLista(pEntrada.textContent);
+    pEntrada.textContent = '';
     atualizarLista();
 }
